@@ -26,6 +26,8 @@ img {
 
 .body-text{
 	padding-bottom: 2%;
+    line-height: 1.5;
+
 }
 
 .top-section-intro {
@@ -45,7 +47,37 @@ img {
 	justify-content: space-between;
 }
 
-/*.page-links a {
+.page-links a {
 	width: 25%;	
 	padding: 1% 4%;
-}*/
+}
+
+footer{
+	border-top: .5px solid #aaa;
+	font-size: 12px;
+}
+
+.footer-flex{
+	display: flex;
+	justify-content: center;	
+}
+
+.footer-notes{
+	padding: 2%;
+}
+
+.footer-nav{
+	display: flex;
+	justify-content: center;	
+}
+
+.footer-nav a{
+	margin: 0 10px;
+}
+
+@media (max-width: 899px) {
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
